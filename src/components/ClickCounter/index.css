@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.container {
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 25px;
+}
+
+.count {
+  color: #c20a72;
+}
+
+.description {
+  font-family: Roboto;
+  text-align: center;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+  .btn {
+    padding: 8px;
+  }
+}
